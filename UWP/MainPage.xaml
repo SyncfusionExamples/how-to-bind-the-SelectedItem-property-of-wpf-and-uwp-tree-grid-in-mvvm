@@ -6,7 +6,8 @@
       xmlns:utils="using:Syncfusion.UI.Xaml.Utils"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       xmlns:syncfusion="using:Syncfusion.UI.Xaml.TreeGrid"
-      mc:Ignorable="d">
+      mc:Ignorable="d"
+      >
     <Page.DataContext>
         <local:ViewModel />
     </Page.DataContext>
