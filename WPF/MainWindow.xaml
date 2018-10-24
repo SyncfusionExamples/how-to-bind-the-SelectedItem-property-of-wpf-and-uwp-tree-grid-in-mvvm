@@ -7,18 +7,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SfTreeGridDemo"
         mc:Ignorable="d"
-        Title="MainWindow" 
-        Height="350" Width="1000">
+        Title="TreeGrid Demo" 
+        Height="500" Width="800"
+        Icon="App.ico">
 
     <Window.DataContext>
         <local:ViewModel/>
     </Window.DataContext>
  
-    <Window.Resources>
-        <local:ViewModel x:Key="viewmodel"/>
-        <local:StringToImageConverter x:Key="converter"/>
-    </Window.Resources>
-
   <Grid>
        <syncfusion:SfTreeGrid Name="treeGrid" 
                                Grid.Row="1" 
