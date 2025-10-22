@@ -27,6 +27,7 @@ You can bind the **SelectedItem** property directly to TreeGrid by setting the *
 public class ViewModel: NotificationObject
 {
     private object selectedItem;
+
     public object SelectedItem
     {
         get
